@@ -1,0 +1,15 @@
+.display{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 50px;
+  margin-left: 30px;
+  grid-gap:30px;
+}
+.inputBox{
+  padding:8px;
+  margin:0 65px;
+  width:80%;
+  border:1px solid black;
+  border-radius:4px;
+  font-family: fontawesome;
+ }

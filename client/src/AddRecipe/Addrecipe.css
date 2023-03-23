@@ -1,0 +1,55 @@
+.addcontainer{
+  margin-left: 200px;
+ 
+}
+.addHeader{
+  font-family: Brush Script MT, Brush Script Std, cursive	;
+  font-size:35px;
+  justify-content: left;
+  color:lightcoral;
+}
+
+.Addform{
+  display: flex;
+  flex-direction: column;
+}
+.recipename{
+  margin-left: 50px;
+  width:300px;
+  height:20px;
+}
+.Ingredients{
+  margin-left: 63px;
+  width: 300px;
+  height: 100px;
+  vertical-align: top;
+}
+.description{
+  margin-left: 62px;
+  width: 300px;
+  height: 100px;
+  vertical-align: top;
+}
+.imageUrl{
+  margin-left: 70px;
+  width: 300px;
+  height:20px;
+}
+.SubmitForm{
+  margin-top: 30px;
+  margin-left: 250px;
+  width: 100px;
+  height: 30px;
+  font-size: 16px;
+}
+.SubmitForm:hover{
+  background-color: #a4e041;
+}
+.SubmitForm::after{
+  background-color:gray
+}
+.ErrorField{
+  margin-left: 70px;
+  color:coral;
+
+}

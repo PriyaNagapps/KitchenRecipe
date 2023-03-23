@@ -1,0 +1,48 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  /*border: 1px solid white;*/
+  overflow:hidden;
+  width:800px;
+  height:600px;
+  justify-content: center;
+  margin-top: 10px;
+  margin-left: 20px;
+  }
+  .deleteRecipe{
+    margin-top: 10px;
+    padding: 5px;
+    width: 75px;
+    color: #A4E041;
+    background-color: black;
+    font-size: 15px;
+    justify-content: right;
+  }
+  .deleteRecipe:hover{
+    color: coral;
+  }
+
+.image{
+  /*min-width:100%;
+  max-width:100%;*/
+  width: 400px;
+  height:400px;
+  margin-left: 190px;
+  object-fit:contain;
+}
+.recipeName{
+  margin-top:0px;
+  margin-left:5px;
+  margin-bottom:-5px;
+  color:#A4E041;
+  text-align: center;
+  font-size: 25px;
+}
+
+.description{
+  margin-left:5px;
+  margin-right:2px;
+  color:white;
+  font-size:14px;
+  
+}
